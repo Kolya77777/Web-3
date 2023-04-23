@@ -1,0 +1,56 @@
+main{
+  min-height:100%;
+  margin-top: 3%;
+}
+
+footer{
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #66ffff;
+  position: fixed;
+  padding: 1%;
+  color:#99ffcc;
+  text-align: center;
+}
+header{
+  width: 100%;
+  right: 0;
+  top: 0;
+  background: #66ffff;
+  position: fixed;
+  padding: 1%;
+  color:#00ccff;
+  text-align: center;
+}
+
+  .sidebar {
+    color: #99ffcc;
+    width: 250px;
+    height: 100vh;
+    background-color: 003333;
+    float: left;
+    margin-right: 5%;
+  }
+
+  nav .link {
+    font-size: 12px;
+    color: #3333cc;
+    display: block;
+    padding: 12px;
+    margin: 10px;
+    padding-left: 30px;
+    text-decoration: none;
+    background-color: #99ffcc;
+  }
+  nav .link:hover, .link:visited:hover
+    {
+            color: #99ffcc;
+            text-decoration: none;
+            background-color: #66ffff;
+    }
+
+  nav p {
+    margin: 0;
+    padding: 15px;
+  }
